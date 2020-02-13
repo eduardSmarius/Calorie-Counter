@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: dodgerblue;
+    width: 100vw;
+    padding: 1rem;
+}
+
+.nav h1 {    
+    color: white;
+    font-size: 1.8rem;
+}
+
+.nav .btn {
+    background: skyblue;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#add-meal {
+    border: 0.1px solid lightgrey;
+    border-top: none;
+    border-bottom: 2px solid grey;
+    margin: 2rem 7vw;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+#add-meal .title {
+    padding-bottom: 1rem;
+    font-weight: 600;
+    color: dimgrey;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+#inputs input {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: 1px solid dimgrey;
+    padding: 0.5rem;
+    outline: none;
+}
+
+#inputs label {
+    color: dimgrey;
+    padding: 0.5rem;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.btns .btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    
+    font-size: 0.8rem;
+}
+
+.btns .add-meal {
+    background: steelblue;
+    color: white;
+}
+
+.btns .update-meal {
+    background: tomato;
+    color: white;
+}
+
+.btns .delete-meal {
+    background: firebrick;
+    color: white;
+}
+
+.btns .back {
+    background: grey;
+    color: white;
+}
+
+
+#results {
+    text-align: center;
+    color: #333;
+}
+
+#results .collection {
+    margin: 1rem 7vw;
+    border: 1px solid lightgrey;
+}
+
+#results .collection li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px solid lightgrey;
+    padding:0.5rem 1.5rem;
+}
+
+#results .collection li:last-child {
+    border-bottom: none;
+}
+
+#results .collection li i,
+.btn {
+    cursor: pointer;
+}
+
+
+
+
+    

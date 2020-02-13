@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cfcc4f2679.js" crossorigin="anonymous"></script>
+    <title>Calorie Counter</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class=""></div>
+        <h1 class="title">Tracalorie</h1>
+        <button class="btn btn-clear">CLEAR ALL</button>
+    </div>
+
+    <div id="add-meal">
+        <h2 class="title">Add Meal / Food Item</h2>
+
+        <div id="inputs">
+            <div class="meal">
+                <label for="add-item">Meal</label>
+                <input type="text" placeholder="Add Item" class="add-item">
+            </div>
+            <div class="calories">
+                <label for="add-item">Calories</label>
+                <input type="text" placeholder="Add Calories" class="add-calories">
+            </div>
+        </div>
+
+        <div class="btns">
+            <button class="btn add-meal"><i class="fas fa-plus"></i> ADD MEAL</button>
+            <button class="btn update-meal"><i class="fas fa-edit"></i> UPDATE MEAL</button>
+            <button class="btn delete-meal"><i class="fas fa-trash-alt"></i> DELETE MEAL</button>
+            <button class="btn back"><i class="fas fa-less-than"></i> BACK</button>
+        </div>
+    </div>
+
+    <div id="results">
+        <h1 class="total-text">Total Calories: <span class="total-nr"></span> </h1>
+        <ul class="collection">
+            <!-- <li><span><strong>Steak: </strong><em>500 Calories</em></span><i class="fas fa-pen"></i></li>
+            <li><span><strong>Milk: </strong><em>300 Calories</em></span><i class="fas fa-pen"></i></li>
+            <li><span><strong>Brocoli: </strong><em>200 Calories</em></span><i class="fas fa-pen"></i></li> -->
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
